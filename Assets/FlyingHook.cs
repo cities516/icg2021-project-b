@@ -15,7 +15,7 @@ public class FlyingHook : MonoBehaviour
 
     void UpdateCable()
     {
-        m_Cable.enabled = m_JointForObject.connectedBody != null;
+        m_Cable.enabled = m_JointForObject.connectedBody != null && m_JointForObject.connectedBody != null;
         
         if (m_Cable.enabled)
         {
