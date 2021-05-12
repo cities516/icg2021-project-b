@@ -5,7 +5,7 @@ using UnityEngine;
 public class TowerControl : MonoBehaviour
 {
     const float MOVE_SPEED = 2f;
-    const float ROTATE_SPEED = 0.5f;
+    const float ROTATE_SPEED = 0.25f;
     const float ATTACK_DISTANCE = 0.5f;
     GameObject m_DetectedObject;
 
